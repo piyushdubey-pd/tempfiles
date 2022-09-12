@@ -1,0 +1,63 @@
+<%- include("head")-%>
+<link rel="stylesheet" href="/AdminAddedEvent.css"> <!--CSS new-->
+
+
+<%- include("adminNav")-%>
+
+
+
+<!--Heading/title -->
+    <div class="heading1 offset-md-1 ">
+    <span>Event Added Successfully</span>
+    </div>
+
+
+<!-- Table information -->
+
+<div class="container  TApos offset-md-1">
+
+<table>
+
+  <tr>
+    <th class="">EVENT NAME</th>
+    <td class=""><%=EVENTname%></td>
+  </tr>
+
+  <tr>
+    <th class="">EVENT ID</th>
+    <td class=""><%=EVENTid%></td>
+  </tr>
+
+  <tr>
+    <th class="">REGISTRATION START DATE</th>
+    <td class=""><%=STARTdate%></td>
+  </tr>
+
+    <tr>
+    <th class="">REGISTRATION DUE DATE</th>
+    <td class=""><%=DUEdate%></td>
+  </tr>
+
+  <tr>
+    <th class="">EVENT DATE</th>
+    <td class=""><%=EVEdate%></td>
+  </tr>
+
+    <tr>
+    <th class="">DETAILS</th>
+    <td class=""><%=EVENTdetails%></td>
+  </tr>
+
+
+  </table>
+
+
+</div>
+
+
+
+
+<!--Table END -->
+
+
+ <%- include("footer")-%>

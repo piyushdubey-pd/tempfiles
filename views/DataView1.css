@@ -1,0 +1,86 @@
+/* #Acards a h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
+    letter-spacing: 0.02rem;
+    font-family: 'Montserrat',
+    sans-serif;
+} */
+
+/******************************CARDS********************************/
+
+/* the top most element position */
+/* Applied for admins dashboard */
+
+.ACpos {
+    margin-top: 90px;
+
+}
+
+/* all other cards position accept the last one */
+.Cpos {
+    margin-bottom: 40px;
+}
+
+/*the position of all the blocks */
+/*offset-md-2  // could also be used */
+.MCpos .CARDpos {
+    margin: auto;
+}
+
+/* last item position */
+.CLpos {
+    margin-bottom: 240px;
+}
+
+.Acard-header1 {
+    /* font-family: 'Nunito', sans-serif; */
+    padding: .75rem 1.25rem 0rem 1.25rem;
+    margin-bottom: 0;
+    height: 85px;
+    width: 600px;
+    background-color: #14141f;
+    /* text-shadow: 2px 1px 1px #000; */
+    /* background-color: #212529; */
+    box-shadow: 6px 6px 3px 3px rgb(109, 109, 109);
+    
+    /* following code is because of icon */
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+/* the main content */
+.Acard-header1 a h3 {
+     font-size: 22px;
+     margin-top: 15px;
+     margin-left: 5px;
+     letter-spacing: 0.02rem;
+     font-family: 'Montserrat',
+     sans-serif;
+}
+
+/* the sub conten */
+.Acard-header1 a p {
+    font-size: 15px;
+    letter-spacing: 0.02rem;
+}
+
+.Secline {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Cpos .Acard-header1 a:hover {
+    text-decoration: none;
+}
+
+.CLpos .Acard-header1 a:hover {
+    text-decoration: none;
+}
+
+.Ipos{
+    display: inline-block;
+    margin-left: 150px;
+}
+

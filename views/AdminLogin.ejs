@@ -1,0 +1,143 @@
+<%- include("head")-%>
+
+<link rel="stylesheet" href="/AdminLogin.css"> <!--CSS new-->
+
+
+
+<div class="heading1 offset-md-1 ">
+    <span>Welcome Admin . . . </span>
+    </div>
+
+          <!--************* LOG-IN******************* -->
+
+
+    <section id="AdminLogpos" class="login-block">
+          <!--login-block conatains padding of -->
+
+            <div id="container1">
+
+            <div class="row">
+
+            <!-- .row  for column allocation-->
+
+              <div id="LGstyle" class="col-md-4 login-sec">
+
+                    <h2 class="text-center" style="color:white;">Login Now</h2>
+
+
+                <!--  LOG-IN FORM  -->
+                 <form class="" method="post" action="DataView1">
+
+                 <!--eventList is the page which will be directed if the login is successfull-->
+
+                    <!-- **USN*** first input section-->
+                        <div class="Lcont">
+                          <label class="text-uppercase">ADMIN USERNAME</label>
+                            <input type="text" class="form-control" placeholder="<%=adminerror%>" name="adminname" value="<%=adminvalue%>">
+                         </div>
+
+                <!-- **PASSWORD**  input section-->
+                       <div class="Lcont">
+                              <label class="text-uppercase">Password</label>
+                                <input type="password" class="form-control" placeholder="<%=adminpassworderror%>" name="adminpassword" value="<%=adminpasswordvalue%>">
+                       </div>
+          
+
+                    <!--FORM last part of LOGIN-->
+                      <div>
+                        <label>
+                          <input type="checkbox">
+                            <small>Remember Me</small>
+                        </label>
+
+
+                     <!--LOGIN BUTTON-->  
+                        <button type="submit" class="btn btn-primary LGbtn" >Log In</button>
+                    </div>
+
+
+                    <div class="QPOS">
+                         <div style="font-size:15px;" class="links">
+                             <!-- Don't have an account?<a href="#">Sign Up</a> -->
+                         </div>
+   
+   
+                         <div  style="font-size:15px;" class="Qpos">
+                             <a href="#">Forgot your password?</a>
+                         </div>
+
+                    </div>
+                        
+                  </form>
+              </div>
+
+
+
+
+
+                                   <div class="col-md-8 banner-sec">
+                                       <div class="carousel slide" data-ride="carousel" data-interval="2500">
+                                          <div class="carousel-inner" role="listbox">
+                   
+                                             <!--1st ITEM-->
+                                             <div class="carousel-item active">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca5.jpg" alt="First slide">
+                                                <!--caprion for the images if required-->
+                                                  <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                            </div>
+
+
+                                             <!--2-->  
+                                             <div class="carousel-item">
+                                                  <img id="IMGpos" class=" img-fluid" src="/caimg/slider3.jpg" alt="second slide">
+                                                     <div class="carousel-caption d-none d-md-block">
+                                                     </div>
+                                             </div>
+                   
+                                             <!--3-->
+                                             <div class="carousel-item">
+                                                 <img id="IMGpos" class=" img-fluid" src="/caimg/ca6.jpg" alt="second slide">
+                                                   <div class="carousel-caption d-none d-md-block">
+                                                   </div>
+                                             </div>
+                                 
+                                             <!--4-->
+                                             <div class="carousel-item">
+                                                   <img id="IMGpos" class="img-fluid" src="/caimg/ca1.jpg" alt="Third slide">
+                                                 <div class="carousel-caption d-none d-md-block">
+                                                </div>
+                                             </div>
+                                 
+                                            <!--5-->
+                                           <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca2.jpg" alt="Third slide">
+                                               <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                           </div>
+                                 
+                                            <!--6-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca3.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                                    
+
+                                            <!--7-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca4.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                            
+                                        </div>	     
+                                      </div>
+                                  </div>
+
+                                  
+                            </div>
+         </section>
+        
+
+<%- include("footer")-%>

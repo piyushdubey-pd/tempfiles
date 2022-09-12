@@ -1,0 +1,24 @@
+.R1pos{
+    margin-left: 80px;
+}
+
+.R1C2pos{
+    margin-left: 20px;
+}
+.R1C3pos{
+    margin-left: 10px;
+}
+
+.login-sec2{
+    padding-bottom: 20px;
+}
+
+.LGbtn2{
+    width: 100px;
+}
+.ERtxt{
+    color: red;
+    font-weight: bolder;
+       font-family: 'Montserrat',
+       sans-serif;
+}

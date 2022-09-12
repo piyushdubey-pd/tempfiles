@@ -1,0 +1,145 @@
+<%- include("header")-%>
+
+
+
+
+<link rel="stylesheet" href="/upcoming.css"> <!--CSS new-->
+          <!-- UPCOMING EVENTS -->
+          
+          
+
+          <div class="heading1 offset-md-1 ">
+    <span>Upcoming Events</span>
+    </div>
+
+
+           <!--Content-->
+
+         <div class="container CNpos CNstyle offset-md-1 " >
+        <p style="font-size: 18px;">Below are the list of events that will be held soon. Use your time wisely and prepare yourselves and like a wizard with his books of strategies and spells make everyone spell bound!</p>
+    </div>
+    </div>
+</div>
+
+    <!--EVENTSSSSSSSSSSs-->
+          
+   <div class="MCpos fluid-container">
+        <div class="row">
+           
+            <div class="col-md-8 offset-md-1">
+            <!--offset does the same spacing before the element -->
+
+
+
+<% for(var k = 0 ; k < UpEvents_array.length ; k++){ %>
+                  <div class="card1 Cpos">
+                                <div class="card-header1">
+                                  <div class="a1">
+                                        <h3 class="h3Style"><b><%= UpEvents_array[k].event_name%></b></h3>
+                                        <span class="datee" ><%= UpEvents_array[k].reg_start.substring(8,10)%></span>
+                                        <p class="Secline"><%= UpEvents_array[k].event_desc%></p>
+                                        
+                                  </div>
+                                </div>
+                           </div>
+                      <% } %>
+        
+<!--
+                     <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Official BMSCE basketball team selection</b></h3>
+                                <span class="datee" >DEC 15</span>
+                                <p class="Secline">Inter-State basketball tournament is scheduled in the coming month </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Basketball Inter-Hostel tournament </b></h3>
+                                <span class="datee" >NOV 22</span>
+                                <p class="Secline" >Students from all the hostels are allowed to participate, starts on 28th november</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      
+                      <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Official BMSCE Badminton team selection</b></h3>
+                                <span class="datee" >NOV 18</span>
+                                <p class="Secline" > Selection is being held in sportscomplex, from 25th november</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Badminton event being hosted on the ocassin of Kredosthsava </b></h3>
+                                <span class="datee" >NOV 08</span>
+                                <p class="Secline" >Kredosthsava is being held in our college itself, starts on 15th november</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Football event being hosted on the ocassin of Kredosthsava </b></h3>
+                                <span class="datee" >NOV 05</span>
+                                <p class="Secline" >Kredosthsava is being held in our college itself, starts on 15th november</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card1 Cpos">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Official BMSCE throwball team selection</b></h3>
+                                <span class="datee" >OCT 29</span>
+                                <p class="Secline">Inter-State throwball tournament is scheduled on 10th november</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                      <div class="card1 Cpos lastele">
+                        <div class="card-header1">
+                          <div class="a1">
+                                <h3 class="h3Style"><b>Football Inter-Hostel event being organised on 25th octobar.</b></h3>
+                                <span class="datee" >OCT 15</span>
+                                <p class="Secline" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                          </div>
+                        </div>
+                      </div>
+
+                          -->
+
+
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+
+
+
+<div class= "EventListFooter">
+<%- include("footer")-%>
+  
+</div>

@@ -1,0 +1,63 @@
+<%- include("head")-%>
+
+<link rel="stylesheet" href="/DataViewStudent.css"> <!--CSS new-->
+
+
+<%- include("adminNav")-%>
+
+
+
+<!--Heading/title -->
+    <div class="heading1 offset-md-1 ">
+    <span>Events Details</span>
+    </div>
+
+
+<!-- Tables-->
+
+
+<section>
+
+
+<!-- Table information -->
+
+<div class="fluid-container  TApos">
+
+<table>
+
+  <tr>
+
+    <th class="HTopRow col-md-1">EVENT ID</th>
+    <th class="HTopRow col-md-4">EVENT NAME</th>
+    <th class="HTopRow col-md-8">EVENT DESCRIPTION</th>
+    <th class="HTopRow col-md-1">START DATE</th>
+    <th class="HTopRow col-md-1">DUE DATE</th>
+    <th class="HTopRow col-md-1">EVENT DATE</th>
+
+
+  </tr>
+
+<% for (var p = 0 ; p < Data_All_events.length ; p++) { %>
+  <tr>
+    <td class=""><%=Data_All_events[p].event_id%></td>
+    <td class=""><%=Data_All_events[p].event_name%></td>
+    <td class=""><%=Data_All_events[p].event_desc%></td>
+    <td class=""><%=Data_All_events[p].reg_start.substring(8,10)%></td>
+    <td class=""><%=Data_All_events[p].reg_due.substring(8,10)%></td>
+    <td class=""><%=Data_All_events[p].event_start.substring(8,10)%></td>
+  </tr>
+
+  <% } %>
+
+
+  </table>
+
+
+</div>
+
+</section>
+
+<!--position of footer-->
+<div class= "AdminFooter" >
+<%- include("footer")-%>
+</div>

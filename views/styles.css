@@ -1,0 +1,234 @@
+/**************Carousel*************************************************************/
+
+/*******HEAD******/
+
+#Hstyle{
+    text-shadow: 8px 5px 3px #000000;
+    font-weight: bold;
+    padding-left: 25px;   
+}
+
+.Hpos{
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Libre Baskerville', serif
+    
+}
+
+/****CAROUSEL******/
+#Cpos{
+    position: absolute;
+    z-index: 0;
+    width:1525px;
+}
+
+/***LOGO*********/
+.Lpos{
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+/******TITLE*****/
+.Tpos{
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    margin-left: 1080px;
+    font-family: 'Merriweather', serif;
+    text-shadow: 3px 5px 5px #ffffff;
+}
+
+
+/*****************BODY************************************************************/
+.body{
+    background-color:rgb(22, 16, 16);
+}
+
+
+
+/**********INTRO**********************/
+
+.FTpos{
+    position: absolute;
+    background: linear-gradient(to top right ,rgb(0, 0, 0),#0051ff);
+    margin: 410px;
+    /* text-align: center;
+    margin-left: auto;
+    padding-left: 690px;
+    padding-right: 820px; */
+    height: 60px;
+    border-radius: 100px;
+    width: max-content;
+    margin-left:270px;
+    color: white;
+}
+.FTstyle{
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif; 
+}
+
+
+/********************LOGIN*********************/
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    margin-left: 400px;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: white;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: black;
+    }
+    
+    .links{
+    color: white;
+    }
+    .btn-warning{
+        color: black;
+    }
+
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+    .LGpos{
+        position: absolute;
+        display: block;
+        margin: 420px;
+    }
+
+    .card-header1 {
+        padding: 1.75rem 4.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,.03);
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+
+    /***********************************************/
+
+    /*********FOOTER***/
+ .Conpos{
+     position: absolute;
+     margin-top: 1200px;
+     background-color: #FFC312;
+     padding-right: 1030px;
+     padding-left: 260px;
+     text-align: left;
+     display: inline;
+     color: #000000;
+     text-shadow: 4px 2px 2px rgb(255, 255, 255);
+     font-weight: bold;
+     font-family: 'Merriweather', serif;
+     width: max-content;
+ }
+
+ .Ipos{
+     
+    position: absolute;
+    margin-top: 1200px;
+    background-color: #FFC312;
+    text-align: center;
+    display: inline;
+    margin-left: 1060px;
+    color: #000000;
+    text-shadow: 4px 2px 2px rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+ }
+
+ .fab{
+     padding-top:25px;
+     padding-left: 20px;
+     padding-bottom: 20px;
+     
+ }
+ .fas{
+     padding-left: 20px;
+ }
+ .fab:hover{
+     color: white;
+     text-shadow: 4px 2px 2px black;
+ }
+ .fas:hover{
+    color: white;
+    text-shadow: 4px 2px 2px black;
+ }
+/*******************************/
+
+
+
+
+
+
+ /* font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif; */

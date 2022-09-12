@@ -1,0 +1,119 @@
+<%- include("head")-%>
+
+<link rel="stylesheet" href="/DataViewStudent.css"> <!--CSS new-->
+
+
+<%- include("adminNav")-%>
+
+
+
+<!--Heading/title -->
+    <div class="heading1 offset-md-1 ">
+    <span>Student Details</span>
+    </div>
+
+
+
+
+ <div class="container CNpos CNstyle offset-md-1 " >
+        <p><%=Event_Details%> <span id="EveNamestyle" > "<%=Event_Name%>"</span></p>
+    </div>
+
+
+
+<!-- Tables-->
+
+
+<section>
+
+
+
+<!--
+
+<div class="fluid-container offset-md-1">
+
+  <h2>Basic Table</h2>
+  <p>The w3-table class defines a basic table:</p>
+
+
+  <table class="DTpos">
+  
+    <tr>
+      <th class="col-md-2">First Name</th>
+      <th class="col-md-2">Last Name</th>
+      <th class="col-md-2">Points</th>
+      <th class="col-md-2">First Name</th>
+      <th class="col-md-2">Last Name</th>
+  
+    </tr>
+    
+    
+    <tr>
+      <td class="col-md-2">Jill</td>
+      <td class="col-md-2">Smith</td>
+      <td class="col-md-2">50</td>
+    </tr>
+
+
+    <tr>
+      <td class="col-md-2" >Eve</td>
+      <td class="col-md-2" >Jackson</td>
+      <td class="col-md-2">94</td>
+    </tr>
+
+
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+
+
+  </table>
+</div>
+-->
+
+
+<!-- Table information -->
+
+<div class="fluid-container  TApos">
+
+<table>
+
+  <tr>
+    <th class="HTopRow">USN</th>
+    <th class="HTopRow">FIRST NAME</th>
+    <th class="HTopRow">LAST NAME</th>
+    <th class="HTopRow">E-MAIL ID</th>
+    <th class="HTopRow">BRANCH</th>
+    <th class="HTopRow">YEAR</th>
+    <th class="HTopRow">CONTACT NO</th>
+
+
+  </tr>
+
+ <% for (var r = 0 ; r < Data_Students.length ; r++) { %>
+  <tr>
+    <td class="col-md-2"><%=Data_Students[r].usn%></td>
+    <td class="col-md-2"><%=Data_Students[r].fname%></td>
+    <td class="col-md-2"><%=Data_Students[r].lname%></td>
+    <td class="col-md-4"><%=Data_Students[r].email%></td>
+    <td class=""><%=Data_Students[r].branch%></td>
+    <td class="col-md-1"><%=Data_Students[r].yr%> year</td>
+    <td class="col-md-2"><%=Data_Students[r].mobno%></td>
+  </tr>
+
+  <% } %>
+
+
+  </table>
+
+
+</div>
+
+</section>
+
+<!--position of footer-->
+<div class= "AdminFooter" >
+<%- include("footer")-%>
+</div>

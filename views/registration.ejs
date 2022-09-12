@@ -1,0 +1,107 @@
+<%- include("header") -%>
+
+
+<link rel="stylesheet" href="/regis.css"> <!--CSS new-->
+ <!--REGISTRATION-->
+
+
+    <div class="heading1 offset-md-1 ">
+    <span>Register Now</span>
+    </div>
+
+
+<!--Content-->
+  <div class="container CNpos CNstyle offset-md-1" >
+        <p style="font-size: 18px;">It takes relentless hard work, years of undivided attention and a lot of perseverance chasing the dream to one day appear in your country’s colors. What separates the legends from thousands of extremely talented youngsters sweating it out every single day on the field, is their attitude towards the game. ~Anonymous</p>
+<p  style="font-size: 18px;" >BMSCE family wishes you good luck for the event and future endeavors to come!</p>
+    </div>
+
+
+<!--FORM-->
+
+
+
+<div class=" RFpos container">
+
+    <div id=" accordion">
+        <div class="card card-default">
+            
+            <div id="RFstyle" class="card-header12">
+                <h4 style="padding-top: 15px; padding-left: 15px;color: white;" class="card-title">
+                        <b><%=Regis_Ename%></b>
+                    </a>
+                </h4>
+            </div>
+
+<p class="PPtext"><%=pptext%></p>
+            
+            
+            <div id="collapse1" class="collapse show">
+                <div class="card-body">
+
+<!--action should be changed-->
+                <form action="<%=Regis_Eid%>" method="post">
+                    <div  id="R1pos" class="row">
+                        <div class="col-md-3 col-lg-4">
+                            <div class="form-group1">
+                                <label class="control-label">First Name</label>
+                                <input type="text" class="form-control" name="fname" value="<%=fnamevalue%>" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-lg-4">
+                            <div class="form-group1">
+                                <label class="control-label">Last Name</label>
+                                <input type="text" class="form-control" name="lname" value="<%=lnamevalue%>" />
+                            </div>
+                        </div>
+                    
+                    
+                    <div class="col-md-3 col-lg-2">
+                            <div class="form-group1">
+                                <label class="control-label">Year</label>
+                                <input type="text" class="form-control" name="year" value="<%=yearvalue%>" />
+                            </div>
+                        </div>
+                    </div>
+                    
+    
+                    <div id="R2pos"  class="row">
+                        <div class="col-md-4 col-lg-5">
+                            <div class="form-group1">
+                                <label class="control-label">BMSCE mail-ID</label>
+                                <input type="email" class="form-control" name="mail" value="<%=mailvalue%>" />
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-2 col-lg-3">
+                            <div class="form-group1">
+                                <label class="control-label">Branch</label>
+                                <input type="text" class="form-control" name="branch"  value="<%=branchvalue%>" />
+                            </div>
+                        </div>
+    
+                        <div class="col-md-3 col-lg-3">
+                            <div class="form-group1">
+                                <label class="control-label">USN</label>
+                                <input type="text" class="form-control" name="usn" value="<%=usnvalue%>"  />
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            
+    
+      <div id="RFstyle" class="FAstyle form-group1">
+        <p> ***** If participated in any events before attach those files*****</p>
+        <input type="file" class="form-control-file BTN" accept="image/*"> 
+       <button id="SBpos" type="submit" class="btn btn-primary" >Submit</button>
+      </div>
+    </form>
+            
+            
+             </div>
+        </div>
+    </div>
+
+<%- include("footer") -%>

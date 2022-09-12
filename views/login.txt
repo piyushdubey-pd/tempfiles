@@ -1,0 +1,122 @@
+                              <div class="carousel slide" data-ride="carousel" data-interval="2500">
+                                          <div class="carousel-inner" role="listbox">
+                   
+                                             <!--1st ITEM-->
+                                             <div class="carousel-item active">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca5.jpg" alt="First slide">
+                                                <!--caprion for the images if required-->
+                                                  <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                            </div>
+
+
+                                             <!--2-->  
+                                             <div class="carousel-item">
+                                                  <img id="IMGpos" class=" img-fluid" src="/caimg/slider3.jpg" alt="second slide">
+                                                     <div class="carousel-caption d-none d-md-block">
+                                                     </div>
+                                             </div>
+                   
+                                             <!--3-->
+                                             <div class="carousel-item">
+                                                 <img id="IMGpos" class=" img-fluid" src="/caimg/ca6.jpg" alt="second slide">
+                                                   <div class="carousel-caption d-none d-md-block">
+                                                   </div>
+                                             </div>
+                                 
+                                             <!--4-->
+                                             <div class="carousel-item">
+                                                   <img id="IMGpos" class="img-fluid" src="/caimg/ca1.jpg" alt="Third slide">
+                                                 <div class="carousel-caption d-none d-md-block">
+                                                </div>
+                                             </div>
+                                 
+                                            <!--5-->
+                                           <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca2.jpg" alt="Third slide">
+                                               <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                           </div>
+                                 
+                                            <!--6-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca3.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                                    
+
+                                            <!--7-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca4.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                            
+                                        </div>	     
+                                      </div>
+
+************************************************************************
+ <div class="col-md-8 banner-sec">
+
+
+                                   
+                                       <div class="carousel slide" data-ride="carousel" data-interval="2500">
+                                          <div class="carousel-inner" role="listbox">
+                   
+                                             <!--1st ITEM-->
+                                             <div class="carousel-item active">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca5.jpg" alt="First slide">
+                                                <!--caprion for the images if required-->
+                                                  <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                            </div>
+
+
+                                             <!--2-->  
+                                             <div class="carousel-item">
+                                                  <img id="IMGpos" class=" img-fluid" src="/caimg/slider3.jpg" alt="second slide">
+                                                     <div class="carousel-caption d-none d-md-block">
+                                                     </div>
+                                             </div>
+                   
+                                             <!--3-->
+                                             <div class="carousel-item">
+                                                 <img id="IMGpos" class=" img-fluid" src="/caimg/ca6.jpg" alt="second slide">
+                                                   <div class="carousel-caption d-none d-md-block">
+                                                   </div>
+                                             </div>
+                                 
+                                             <!--4-->
+                                             <div class="carousel-item">
+                                                   <img id="IMGpos" class="img-fluid" src="/caimg/ca1.jpg" alt="Third slide">
+                                                 <div class="carousel-caption d-none d-md-block">
+                                                </div>
+                                             </div>
+                                 
+                                            <!--5-->
+                                           <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca2.jpg" alt="Third slide">
+                                               <div class="carousel-caption d-none d-md-block">
+                                               </div>
+                                           </div>
+                                 
+                                            <!--6-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca3.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                                    
+
+                                            <!--7-->
+                                            <div class="carousel-item">
+                                                <img id="IMGpos" class="img-fluid" src="/caimg/ca4.jpg" alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                              </div>
+                                            </div>
+                            
+                                        </div>	     
+                                      </div>
+                                      
+                                  </div>

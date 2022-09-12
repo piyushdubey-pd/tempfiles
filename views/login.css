@@ -1,0 +1,204 @@
+/********LOG-In***************************/
+
+.login-block{ 
+padding : 80px 100px 80px 100px ;
+   font-family: 'Montserrat',
+   sans-serif;
+} 
+
+#LGstyle{
+    background-color: #141516;
+    color: white;
+    
+}
+
+.banner-sec{
+    background: linear-gradient(to top right , black 50% ,#007bff);
+    background-size:cover; 
+    min-height:500px; 
+    border-radius: 0 15px 15px 0; 
+    padding:0;
+}
+
+
+#container1{
+    border-radius: 10px; 
+    box-shadow:15px 20px 0px #007bff;
+}
+
+.carousel-caption{
+    text-align:left; 
+    left:5%;
+}
+
+.login-sec{
+    /* padding: 50px 30px; */
+    padding-top: 40px;
+     position:relative;
+    }
+
+.login-sec h2{
+    margin-bottom:30px;
+     font-weight:800; 
+     font-size:30px;
+    }
+
+/*the underline below the LOGIN NOW */
+/*  h2:after */
+.login-sec h2:after{
+    content:"";
+     width:100px;
+      height:5px;
+       background: #007bff; 
+       display:block; 
+       margin-top:20px;
+        border-radius:3px; 
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+.Lcont{
+    padding-bottom: 20px;
+       font-family: 'Montserrat',
+       sans-serif;
+}
+
+#IMGpos{
+    padding-top: 40px;
+}
+
+.LGbtn {
+    color: white;
+    margin-top: 0px;
+    margin-left: 78%;
+    width: 80px;
+    letter-spacing: 0px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+       font-family: 'Montserrat',
+       sans-serif;
+}
+
+.QPOS{
+    margin-top: 10px;
+}
+
+.Qpos{
+    text-align: center;
+}
+
+.Qpos a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/**********INTRO MARQUEE TEXT**********************/
+
+.FTpos{
+     background: linear-gradient(to top right, rgb(0, 0, 0) 40%, #007bff);
+    height: 50px;
+    border-radius: 100px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 3px 2px 1px #000000;
+}
+.FTstyle{
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat',
+    sans-serif;
+
+    /* font-family: 'Merriweather', serif;  */
+}
+/***************************************/
+
+
+/********WELCOME***********/
+
+.Wcome{
+    margin-top: 70px;
+    text-align: center;
+    height: 110px;
+  
+}
+.Wstyle{
+    font-size: 100px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 5px 5px 5px #000077;
+}
+
+.card-footer1{
+    margin-top: 30px;
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgb(0, 0, 0, .125);
+}
+
+
+/**********CONTENT***************************/
+
+/*first block of content*/
+.contTop{
+    margin-top: 80px;
+}
+
+/*style*/
+.conStyle{
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+/*content title*/
+.ContT{
+    font-size: 20px;
+}
+
+/*inside content*/
+.ConTIn{
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+/*last content*/
+.ContL{
+    margin-bottom: 200px;
+}
+
+
+/************dot styling and positioning***************/
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.dotPos{
+    text-align: center;
+}
+
+
+/* **********sign up********* */
+.Supos{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+a:hover.Supos {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.SQpos{
+    margin-top: 20px;
+    margin-left: 60px;
+}

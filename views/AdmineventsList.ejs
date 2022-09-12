@@ -1,0 +1,154 @@
+<%- include("head")-%>
+
+        <link rel="stylesheet" href="/AdmineventsList.css"> 
+
+
+
+<!-- links related to box  design  -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<%- include("adminNav")-%>
+
+
+
+
+
+
+
+
+<!-----------------ADMIN  => Add Events for Registration--------------------------->
+
+
+      
+<div class="heading1 offset-md-1 ">
+    <span>Add Events for registration </span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************  FORM  ************************************  -->
+<section>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container contact">
+	<div class="row">
+	    
+	    
+	    
+	    
+		<div class="col-md-3">
+
+			<div class="contact-info">
+		<!--		<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>  -->
+
+		<div class ="AdminInfo" >
+              <i class="fas fa-user-cog fa-4x"></i>
+				<h2 class ="tagline1">Welcome Admin</h2>
+				<h4 class="tagline2" >We would love to hear from you!</h4>
+				<h4>Always at your service !</h4>
+                 </div>
+			</div>
+
+		</div>
+		
+		
+		
+		
+		
+		<div class="col-md-9">
+		    
+			<div class="contact-form">
+	 
+
+
+	           <form action="AdminAddedEvent" method="post"> 
+			    
+				<div class="form-group" >
+				  <label class="control-label col-sm-2" for="EventId">Event ID:</label>
+				  <div class="col-sm-3"  >          
+					<input type="text" class="form-control"  placeholder="" name="EventId" value=<%=EventIdvalue%>>
+				  </div>
+				</div>
+				
+				
+				
+				
+				<div class="form-group"  >
+				  <label class="control-label col-sm-2" for="EventName">Event Name:</label>
+				  <div class="col-sm-6"  >          
+					<input type="text" class="form-control"  placeholder="" name="EventName" value=<%=EventNameValue%> >
+				  </div>
+				</div>
+                
+                
+
+
+				<div class="form-group" >
+				  <label class="control-label col-sm-2" for="StartDate">start date :</label>
+				  <div class="col-sm-3"  >          
+					<input type="date" class="form-control"  name="StartDate" value=<%=StartDateValue%>  >
+				  </div>
+                </div>
+
+
+
+
+				<div class="form-group" >
+				  <label class="control-label col-sm-2" for="DueDate">due date :</label>
+				    <div class="col-sm-3"  >          
+					<input type="date" class="form-control"  name="DueDate" value=<%=DueDateValue%>  >
+				  </div>
+				</div>
+
+				<div class="form-group" >
+				  <label class="control-label col-sm-2" for="DueDate">Event date :</label>
+				    <div class="col-sm-3"  >          
+					<input type="date" class="form-control"  name="EveDate" value=<%=EveDateValue%>  >
+				  </div>
+				</div>
+				
+				
+				
+				<div class="form-group">
+				   <label class="control-label col-sm-2" for="EventDetails">Event Details:</label> 
+				  <div class="col-sm-10">
+					<textarea class="form-control" name="EventDetails" value=<%=EventDetailsValue%> rows="5"></textarea>
+				  </div>
+				</div>
+				
+				
+				
+				<p style="color:red;"><%=EVEerror%></p>
+				
+				<div class="form-group">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit"  class="btn btn-default">CREATE</button>
+				  </div>
+				</div>
+				
+				</form> 
+				
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+</section>
+
+  <!-- /****************************************/ -->
+ <%- include("footer")-%>

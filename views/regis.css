@@ -1,0 +1,82 @@
+.card-default {
+    color: #333;
+    background-color: #212529;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+/************Registration Form**********/
+.RFpos{
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 300px;
+}
+#RFstyle{
+    background-color: #212529;
+    color: #007bff;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem 1.25rem 1.25rem 1.25rem;
+    background-color: #212529;
+    color: #007bff;
+}
+
+.form-group1 {
+    margin-bottom: 0rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/*****Card Heading****/
+
+.card-header12 {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid white;
+}
+/********ROW********/
+#R1pos{
+    padding-left: 15px;
+}
+/********ROW2********/
+#R2pos{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+/******File Attachment*******/
+.FAstyle{
+    padding-left: 40px;
+}
+
+/***********SUBMIT BTN*********/
+#SBpos{
+    margin-top: 30px;
+    margin-bottom: 35px;   
+}
+
+.PPtext{
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(255, 0, 0);
+}
